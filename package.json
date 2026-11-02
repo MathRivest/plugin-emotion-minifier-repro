@@ -1,0 +1,11 @@
+{
+  "name": "plugin-emotion-minifier-repro",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "rolldown -c" },
+  "devDependencies": {
+    "@rolldown/plugin-emotion": "0.2.0",
+    "rolldown": "^1.2.4"
+  },
+  "dependencies": { "@emotion/react": "^11.14.0" }
+}
